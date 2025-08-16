@@ -25,10 +25,14 @@ public class Main {
             } while (opcion < 1 || opcion > 6);
             switch (opcion) {
                 case 1:
-                    System.out.println("Archivo generado");
+                    System.out.println("Ingrese una cantidad de numeros aleatorios");
+                    NumerosRandom random = new NumerosRandom();
+                    random.NumRandom();
                     break;
                 case 2:
                     System.out.println("Leer archivo generado:");
+                    NumerosRandom leyendoArchivo = new NumerosRandom();
+                    leyendoArchivo.LeerNumRandom();
                     break;
                 case 3:
                     System.out.println("Se ordena archivo");
