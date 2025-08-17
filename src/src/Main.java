@@ -36,12 +36,18 @@ public class Main {
                     break;
                 case 3:
                     System.out.println("Se ordena archivo");
+                    NumerosRandom ordenarArchivo = new NumerosRandom();
+                    ordenarArchivo.OrdenarNumeros();
                     break;
                 case 4:
                     System.out.println("Leer archivo ordenado:");
+                    NumerosRandom leerArchivOrdenado = new NumerosRandom();
+                    leerArchivOrdenado.LeerNumerosOrdenados();
                     break;
                 case 5:
                     System.out.println("Se busca numero:");
+                    NumerosRandom buscarNum = new NumerosRandom();
+                    buscarNum.BuscarNumero();
                     break;
                 case 6:
                     System.exit(0);
